@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from '@pancakeswap-libs/sdk'
-import { Button, ChevronDownIcon, Text } from '@pancakeswap-libs/uikit'
+import { Currency, Pair } from '@puppyswapfinance/sdk'
+import { Button, ChevronDownIcon, Text } from '@puppyswapfinance/uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'
 import { useCurrencyBalance } from '../../state/wallet/hooks'
@@ -24,7 +24,7 @@ const CurrencySelect = styled.button<{ selected: boolean }>`
   align-items: center;
   height: 34px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 450;
   background-color: transparent;
   color: ${({ selected, theme }) => (selected ? theme.colors.text : '#FFFFFF')};
   border-radius: 12px;

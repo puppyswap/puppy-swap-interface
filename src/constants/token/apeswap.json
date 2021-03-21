@@ -1,5 +1,5 @@
 {
-  "name": "pancakeswap",
+  "name": "puppyswap",
   "timestamp": "2020-08-25T15:41:29.665Z",
   "version": {
     "major": 1,
@@ -8,15 +8,8 @@
   },
   "tags": {},
   "logoURI": "/images/coins/wbnb.png",
-  "keywords": ["pancake", "default"],
+  "keywords": ["puppyswap", "default"],
   "tokens": [
-    {
-      "name": "Puppyswap",
-      "symbol": "KIBBLE",
-      "address": "0x557491b33f7A957232C5eABf05ACB317486692f1",
-      "chainId": 56,
-      "decimals": 18
-    },
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
@@ -33,17 +26,17 @@
       "decimals": 18
     },
     {
-      "name": "LP3 Token",
-      "symbol": "LP3",
-      "address": "0xe70b7523f4bffa1f2e88d2ba709afd026030f412",
+      "name": "KIBBLE Token",
+      "symbol": "KIBBLE",
+      "address": "0xC987BEA2149629ff83C11FfAbfD07b45ecb94700",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "/images/coins/ETH.png"
+      "logoURI": "/images/coins/KIBBLE.svg"
     },
     {
       "name": "BUSD Token",
       "symbol": "BUSD",
-      "address": "0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3",
+      "address": "0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee",
       "chainId": 97,
       "decimals": 18,
       "logoURI": "/images/coins/BTC.png"
@@ -207,9 +200,9 @@
       "decimals": 18
     },
     {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "name": "puppyswap Token",
+      "symbol": "KIBBLE",
+      "address": "0xC987BEA2149629ff83C11FfAbfD07b45ecb94700",
       "chainId": 56,
       "decimals": 18
     },
@@ -631,6 +624,48 @@
       "name": "Elrond",
       "symbol": "EGLD",
       "address": "0xbf7c81fff98bbe61b40ed186e4afd6ddd01337fe",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "AUTOv2",
+      "symbol": "AUTO",
+      "address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "Hedget",
+      "symbol": "HGET",
+      "address": "0xC7d8D35EBA58a0935ff2D5a33Df105DD9f071731",
+      "chainId": 56,
+      "decimals": 6
+    },
+    {
+      "name": "Litentry",
+      "symbol": "LIT",
+      "address": "0xb59490ab09a0f526cc7305822ac65f2ab12f9723",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "Linear Finance",
+      "symbol": "LINA",
+      "address": "0x762539b45a1dcce3d36d080f74d1aed37844b878",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "Beacon ETH",
+      "symbol": "BETH",
+      "address": "0x250632378e573c6be1ac2f97fcdf00515d0aa91b",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "lUSD",
+      "symbol": "lUSD",
+      "address": "0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e",
       "chainId": 56,
       "decimals": 18
     }

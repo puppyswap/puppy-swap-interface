@@ -1,7 +1,7 @@
 import { transparentize } from 'polished'
 import React from 'react'
 import { AlertTriangle } from 'react-feather'
-import { Text } from '@pancakeswap-libs/uikit'
+import { Text } from '@puppyswapfinance/uikit'
 import styled, { css } from 'styled-components'
 import { AutoColumn } from '../Column'
 
@@ -52,7 +52,7 @@ export const StyledBalanceMaxMini = styled.button`
   border-radius: 50%;
   padding: 0.2rem;
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-left: 0.4rem;
   cursor: pointer;
   color: ${({ theme }) => theme.colors.textSubtle};
@@ -112,7 +112,7 @@ const SwapCallbackErrorInner = styled.div`
   p {
     padding: 0;
     margin: 0;
-    font-weight: 500;
+    font-weight: 450;
   }
 `
 

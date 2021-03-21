@@ -1,13 +1,14 @@
 {
-  "name": "puppy-swap-interface",
-  "description": "PuppySwap Interface",
+  "name": "@puppyswap/interface",
+  "description": "puppyswap Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {
+    "@puppyswapfinance/sdk": "1.0.3",
+    "@puppyswapfinance/uikit": "0.10.8",
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
-    "@pancakeswap-libs/sdk": "1.0.1",
-    "@pancakeswap-libs/uikit": "PuppySwap/puppyswap-uikit",
+    "@pancakeswap-libs/uikit": "^0.10.3",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
@@ -35,7 +36,6 @@
     "@web3-react/walletconnect-connector": "^6.1.1",
     "@web3-react/walletlink-connector": "^6.0.9",
     "ajv": "^6.12.3",
-    "bignumber.js": "^9.0.0",
     "cids": "^1.0.0",
     "copy-to-clipboard": "^3.2.0",
     "ethers": "^5.0.7",
@@ -56,7 +56,6 @@
     "react-popper": "^2.2.3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.0.0",
-    "react-script-tag": "^1.1.2",
     "react-scripts": "^4.0.1",
     "react-spring": "^8.0.27",
     "react-virtualized-auto-sizer": "^1.0.2",
@@ -64,8 +63,7 @@
     "rebass": "^4.0.7",
     "redux-localstorage-simple": "^2.3.1",
     "styled-components": "^5.2.1",
-    "typescript": "^4.1.3",
-    "universal-cookie": "^4.0.4"
+    "typescript": "^4.1.3"
   },
   "devDependencies": {
     "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
@@ -83,7 +81,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI= react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",

@@ -1,91 +1,105 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from '@puppyswapfinance/uikit'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://puppyswap.finance/',
+    href: 'https://puppyswap-frontend.vercel.app',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
+    initialOpenState: true,
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.puppyswap.finance/',
+        href: '/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.puppyswap.finance/#/pool',
+        href: '/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://puppyswap.finance/farms',
+    href: 'https://puppyswap-frontend.vercel.app/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://puppyswap.finance/pools',
+    href: 'https://puppyswap-frontend.vercel.app/pools',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
+  /* {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
+  },
   {
+    label: 'NFT',
+    icon: 'NftIcon',
+    href: '/nft',
+  },
+  {
+    label: 'Teams & Profile',
+    icon: 'GroupsIcon',
+    items: [
+      {
+        label: 'Leaderboard',
+        href: '/teams',
+      },
+      {
+        label: 'Your Profile',
+        href: '/profile',
+      },
+    ],
+  }, */
+  /* {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x9066e87Bac891409D690cfEfA41379b34af06391',
+        label: 'Overview',
+        href: 'https://pancakeswap.info',
       },
       {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/puppyswap-finance',
+        label: 'Tokens',
+        href: 'https://pancakeswap.info/tokens',
       },
       {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/puppyswap-finance/',
+        label: 'Pairs',
+        href: 'https://pancakeswap.info/pairs',
       },
-      /*{
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/', // KIBBLE-busd
-      },*/
+      {
+        label: 'Accounts',
+        href: 'https://pancakeswap.info/accounts',
+      },
     ],
-  },
+  }, {
+    label: 'IFO',
+    icon: 'IfoIcon',
+    href: '/ifo',
+  }, */
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
-     /* {
-        label: 'Audit Coming Soon',
-        href: '',
-      },*/
+      /* {
+        label: 'Voting',
+        href: '#',
+      }, */
       {
         label: 'Github',
-        href: 'https://github.com/puppyswap/',
+        href: 'https://github.com/puppyswapfinance',
       },
       {
         label: 'Docs',
-        href: 'https://puppyswap-finance.gitbook.io/puppyswap-finance/',
+        href: '#',
       },
       {
         label: 'Blog',
-        href: 'https://puppyswap-finance.medium.com/',
+        href: '#',
       },
     ],
   },

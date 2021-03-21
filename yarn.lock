@@ -2,29 +2,6 @@
 # yarn lockfile v1
 
 
-"@puppyswapfinance/sdk@1.0.3":
-  version "1.0.3"
-  resolved "https://npm.pkg.github.com/download/@puppyswapfinance/sdk/1.0.3/98efa18f68c03db38bf27bba336333dcee2b1d4f7103e21b78b77a894ac5c321#1b387fd464bea01b747e6bd930a35b5f5e0a410e"
-  integrity sha512-IYoOzZujYeh0QZutElto4Txmgv7HRgfj8KDAi7XlRKMDBv50ljpz7/C67ejg2Obvtv5afwMHMgVpJEwQbMHGkA==
-  dependencies:
-    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
-"@puppyswapfinance/uikit@0.10.8":
-  version "0.10.8"
-  resolved "https://npm.pkg.github.com/download/@puppyswapfinance/uikit/0.10.8/da3b2829344dab0c6a70364859e12fc0ff517a5ef31bca580e400054a038d722#acad6cbf37764921b355a86bb969425cd3390efc"
-  integrity sha512-lK9ggNfgfD1koWGS6HkB22iJ+UX8NFTMTvLevYIdmU8Tppn2NfkmpX6rtHPlu7Bbu+HWU/oFbUsfRPznpfGzXg==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"

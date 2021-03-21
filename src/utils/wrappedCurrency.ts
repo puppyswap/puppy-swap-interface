@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, ETHER, Token, TokenAmount, WETH } from '@puppyswapfinance/sdk'
+import { ChainId, Currency, CurrencyAmount, ETHER, Token, TokenAmount, WETH } from '@pancakeswap/sdk'
 // import { WBNB } from '../constants'
 
 export function wrappedCurrency(currency: Currency | undefined, chainId: ChainId | undefined): Token | undefined {

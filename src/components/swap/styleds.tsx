@@ -1,7 +1,7 @@
 import { transparentize } from 'polished'
 import React from 'react'
 import { AlertTriangle } from 'react-feather'
-import { Text } from '@puppyswapfinance/uikit'
+import { Text } from '@pancakeswap/uikit'
 import styled, { css } from 'styled-components'
 import { AutoColumn } from '../Column'
 

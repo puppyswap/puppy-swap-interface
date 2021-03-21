@@ -1,4 +1,4 @@
-import { Currency } from '@puppyswapfinance/sdk'
+import { Currency } from '@pancakeswap/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import useLast from '../../hooks/useLast'
 import { useSelectedListUrl } from '../../state/lists/hooks'

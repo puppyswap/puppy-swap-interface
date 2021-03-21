@@ -1,6 +1,6 @@
 import React from 'react'
-import { Trade, TradeType } from '@puppyswapfinance/sdk'
-import { Card, CardBody, Text } from '@puppyswapfinance/uikit'
+import { Trade, TradeType } from '@pancakeswap/sdk'
+import { Card, CardBody, Text } from '@pancakeswap/uikit'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from '../../utils/prices'

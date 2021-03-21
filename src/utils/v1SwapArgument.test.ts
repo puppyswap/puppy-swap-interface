@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, Percent, Route, TokenAmount, Trade } from '@puppyswapfinance/sdk'
+import { CurrencyAmount, ETHER, Percent, Route, TokenAmount, Trade } from '@pancakeswap/sdk'
 import { DAI, USDT as USDC } from '../constants'
 import { MockV1Pair } from '../data/V1'
 import v1SwapArguments from './v1SwapArguments'

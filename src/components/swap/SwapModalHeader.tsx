@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
-import { Trade, TradeType } from '@puppyswapfinance/sdk'
-import { Button, Text } from '@puppyswapfinance/uikit'
+import { Trade, TradeType } from '@pancakeswap/sdk'
+import { Button, Text } from '@pancakeswap/uikit'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 
 import { Field } from '../../state/swap/actions'

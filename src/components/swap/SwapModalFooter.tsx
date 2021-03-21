@@ -1,6 +1,6 @@
-import { Trade, TradeType } from '@puppyswapfinance/sdk'
+import { Trade, TradeType } from '@pancakeswap/sdk'
 import React, { useMemo, useState } from 'react'
-import { Text , Button } from '@puppyswapfinance/uikit'
+import { Text , Button } from '@pancakeswap/uikit'
 import { Repeat } from 'react-feather'
 
 import { Field } from '../../state/swap/actions'

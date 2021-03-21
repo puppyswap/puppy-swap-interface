@@ -1,6 +1,6 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@puppyswapfinance/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@pancakeswap/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
-import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@puppyswapfinance/uikit'
+import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@pancakeswap/uikit'
 import CardNav from 'components/CardNav'
 import { LightCard } from 'components/Card'
 import { AutoColumn, ColumnCenter } from 'components/Column'

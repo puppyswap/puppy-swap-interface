@@ -1,6 +1,6 @@
 import React from 'react'
-import { Text } from '@puppyswapfinance/uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@puppyswapfinance/sdk'
+import { Text } from '@pancakeswap/uikit'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@pancakeswap/sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'
